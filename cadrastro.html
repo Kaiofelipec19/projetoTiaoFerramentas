@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/stely.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body id="body-login">
+    <header id="headerMain">
+        <picture><img id="logo-header" src="img/logo.png" alt="logo-tiao"></picture>
+        <nav id="navigation">
+            <li><a class="register" href="">Atendimento <i class="fa-solid fa-phone"></i></a></li>
+            <li><a class="register" href="">Home <i class="fa-solid fa-house"></i></a></li>
+            <li><a class="register" href="">Minha sacola <i class="fa-solid fa-bag-shopping"></i></a></li>
+        </nav>
+    </header>
+        <form action="cadastra">
+            <h1>Não é Cadastrado?Faça seu Cadastro</h1>
+
+
+            <label  for="nomecomp">Nome Completo</label>
+            <input class="inputt" type="text">
+
+            <label for="cpf">CPF</label>
+            <input class="inputt" type="text">
+            
+            <label for="email">email</label>
+            <input class="inputt" type="email">
+
+            <label for="endereço">Endereço</label>
+            <input class="inputt" type="text">
+
+            <label for="Bairro">Bairro</label>
+            <input class="inputt" type="text">
+
+            <label for="Cidade">Cidade</label>
+            <input class="inputt" type="text">        
+
+            <label for="Telefone">Telefone</label>
+            <input class="inputt" type="text">         
+
+            <div class="radios">
+                <label for="sexo">Sexo</label>
+                <input type="radio" name="sexo">
+                <label for="Masculino">Masculino</label>
+                <input type="radio" name="sexo">
+                <label for="Feminino">Feminino</label></div>
+            </div>
+            
+            <label for="datadenascimento">Data nascimento</label>
+            <input class="inputt" type="text">
+
+            <div class="radios">
+                <label for="login">login</label>
+                <input class="inputt" type="text">
+                <label for="senha">senha</label>
+                <input class="inputt" type="password">
+            </div>
+            <input type="submit" class="bnt" value="cadastrar">
+        </form>
+    <script src="app/app.js"></script>
+</body>
+</html>
